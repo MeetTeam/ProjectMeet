@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96FBE5AB20EE24320046D08E /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBE5AA20EE24320046D08E /* MapController.swift */; };
 		976559DD20C977E700720A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976559DC20C977E700720A1A /* AppDelegate.swift */; };
 		976559DF20C977E700720A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976559DE20C977E700720A1A /* ViewController.swift */; };
 		976559E220C977E700720A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976559E020C977E700720A1A /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96FBE5AA20EE24320046D08E /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		976559D920C977E700720A1A /* ProjectMeet2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMeet2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		976559DC20C977E700720A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		976559DE20C977E700720A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				976559F120C97C5900720A1A /* Map.storyboard */,
+				96FBE5AA20EE24320046D08E /* MapController.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				976559DF20C977E700720A1A /* ViewController.swift in Sources */,
+				96FBE5AB20EE24320046D08E /* MapController.swift in Sources */,
 				976559DD20C977E700720A1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,13 +370,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T5PGL74YJS;
+				DEVELOPMENT_TEAM = 9P7QSK29XU;
 				INFOPLIST_FILE = ProjectMeet2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meet.ProjectMeet2018;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomas.ProjectMeet2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,13 +388,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T5PGL74YJS;
+				DEVELOPMENT_TEAM = 9P7QSK29XU;
 				INFOPLIST_FILE = ProjectMeet2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meet.ProjectMeet2018;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomas.ProjectMeet2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
