@@ -58,6 +58,7 @@
 				976559F920C97CD500720A1A /* Contacts */,
 				976559F620C97C9B00720A1A /* Settings */,
 				976559DA20C977E700720A1A /* Products */,
+				9773345620C98DFB00331418 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +131,13 @@
 			path = "New Meet";
 			sourceTree = "<group>";
 		};
+		9773345620C98DFB00331418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +170,11 @@
 				TargetAttributes = {
 					976559D820C977E700720A1A = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
